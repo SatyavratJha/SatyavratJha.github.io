@@ -1,119 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satyavrat Jha's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Section 1 -->
+      <section class="section-1 center" id="section-1">
+        <h1 class="section-1-heading">
+          Programmer
+        </h1>
+        <img src="images/Satyavrat_Jha.jpg" alt="John Smith" class="person-img" />
+        <h3 class="person-name">Satyavrat Jha</h3>
+        <a href="#section-3" class="section-1-btn">Projects in Progress</a>
+      </section>
+      <!-- End of Section 1 -->
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <!-- Navbar -->
+      <nav class="navbar center">
+        <a href="#section-1" class="navbar-link">Work in Progress</a>
+        <a href="#section-1" class="navbar-link">Home</a>
+        <a href="#section-2" class="navbar-link">About</a>
+        <a href="#section-3" class="navbar-link">Portfolio</a>
+        <a href="#section-4" class="navbar-link">Contact</a>
+      </nav>
+
+      <!-- End of Navbar -->
+
+      <!-- Section 2 -->
+      <section class="section-2" id="section-2">
+        <h1 class="section-heading section-2-heading">About Me</h1>
+        <div class="progress-bars-wrapper">
+          <div class="progress-bar">
+            <p class="progress-text">
+              HTML
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              CSS
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              JavaScript
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              SASS
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              ReactJS
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              NodeJS
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-text">
+              MongoDB
+              <span></span>%
+            </p>
+            <div class="progress-percent"></div>
+          </div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <i class="far fa-lightbulb"></i>
+            <h2 class="service-heading">Creative</h2>
+          </div>
+          <div class="service">
+            <i class="fas fa-cut"></i>
+            <h2 class="service-heading">Problem Solving</h2>
+          </div>
+          <div class="service">
+            <i class="fas fa-tachometer-alt"></i>
+            <h2 class="service-heading">Fast</h2>
+          </div>
+          <div class="service">
+            <i class="fas fa-rocket"></i>
+            <h2 class="service-heading">Dynamic</h2>
+          </div>
+        </div>
+      </section>
+      <!-- End of Section 2 -->
+
+      <!-- Section 3 -->
+      <section class="section-3" id="section-3">
+        <h1 class="section-heading section-3-heading">My Projects</h1>
+        <!--
+        <div class="projects-wrapper center">
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">architect website</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/project-1.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=3J-EFMzz94g"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Budget App</h2>
+              <h4 class="project-technologies">ReactJS</h4>
+            </div>
+            <img src="images/project-2.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=fDffQYs2WB0"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">wine house</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/project-3.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=jtmuopTpzGE"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">task manager</h2>
+              <h4 class="project-technologies">ReactJS</h4>
+            </div>
+            <img src="images/project-4.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=fqup-BL3VjI"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">The Road</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/project-5.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=qmyN7lYY_xo"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">food recipe app</h2>
+              <h4 class="project-technologies">ReactJS</h4>
+            </div>
+            <img src="images/project-6.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=d1vT4kkTCaw"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">slideshow</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/project-7.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=1qhSSp2q7n4"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Hamburger menu</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/project-8.jpg" class="project-img" />
+            <a
+              href="https://www.youtube.com/watch?v=9Q7wy8r3i8w"
+              class="project-link"
+              target="_blank"
+              >Go to Video</a
+            >
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">CSS grid menu</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/project-9.jpg" class="project-img" />
+            <a href="" class="project-link" target="_blank">Go to Video</a>
+          </div>
+        </div>
+      </section>
+    -->
+      <!-- End of Section 3 -->
+
+      <!-- Section 4 -->
+      <section class="section-4" id="section-4">
+        <h1 class="section-heading section-4-heading">Contact Me</h1>
+        <form class="contact-form center">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Submit" class="contact-form-btn" />
+        </form>
+      </section>
+      <!-- End of Section 4 -->
+
+      <!-- Section 5 -->
+      <footer class="section-5 center">
+        <div class="social-media">
+          <a href="#none" class="social-media-link">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a href="#none" class="social-media-link">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#none" class="social-media-link">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="#none" class="social-media-link">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+        </div>
+        <p class="copyright">
+          Copyright &copy; CodeAndCreate for Now. "Making it mine.". All Rights Reserved
+        </p>
+      </footer>
+      <!-- End of Section 5 -->
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="naruto.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>I'm a naruto fan</h3>
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-    <!--<p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p> -->
-<p>Website Made By <a href="https://www.w3schools.com" title="Visit w3schools">Richa Shukla</a></p>
-</footer>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
